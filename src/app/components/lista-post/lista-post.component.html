@@ -1,0 +1,24 @@
+<div class="select">
+    <h3>Filtra por categoría:
+        <select (change)="onChange($event.target)">
+            <option value="Terror">Terror</option>
+            <option value="Comedia">Comedia</option>
+            <option value="Drama">Drama</option>
+            <option value="Infantil">Infantil</option>
+        </select>
+    </h3>
+
+</div>
+<div class="listaposts">
+    <div class="post" *ngFor="let post of arrPosts">
+        <h2>{{post.titulo}}</h2>
+        <div class="imagen">
+            <img [src]="post.imagen" alt="">
+        </div>
+        <h3>Autor: {{post.autor}}</h3>
+        <h3>Categoría: {{post.categoria}}</h3>
+        <h3>{{post.texto}}</h3>
+        <p>Fecha de lanzamiento: {{post.fecha}}</p>
+    </div>
+
+</div>

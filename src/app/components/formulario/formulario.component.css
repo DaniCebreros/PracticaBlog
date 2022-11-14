@@ -1,0 +1,35 @@
+.formulario {
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    max-width: max-content;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.newpost {
+    font-size: 20px;
+}
+
+.input {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.input input {
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+    border-color: darkblue;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+input:hover {
+    background-color: darkblue;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}

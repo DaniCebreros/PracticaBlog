@@ -1,0 +1,36 @@
+.select {
+    width: 300px;
+    border: 3px solid darkorange;
+    background-color: rgb(237, 196, 147);
+    border-radius: 10px;
+    padding-left: 5px;
+    margin: 0 auto;
+}
+
+.listaposts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.post {
+    border: 3px solid darkorange;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.post h2 {
+    text-align: center;
+}
+
+.post .imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.post .imagen img {
+    width: 90%;
+}
